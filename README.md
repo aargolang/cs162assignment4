@@ -19,6 +19,7 @@ I know that this is not a proper implementation of an actual queue since things 
 // user input:
 
 a
+
 songs.txt
 
 // now the linked list is populated with objects created from the data in the txt file
@@ -28,6 +29,7 @@ e
 // this will display the songs in the 
 
 c
+
 Skream - Exothermic Reaction.mp3
 
 // this should delete that link in the list
