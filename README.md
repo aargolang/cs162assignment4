@@ -25,14 +25,16 @@ songs.txt
 
 e
 
-// this will display the songs in the list
+// this will display the songs in the 
+
 c
 Skream - Exothermic Reaction.mp3
 
 // this should delete that link in the list
 // when there is an exact match it should disaply "deleting song..."
 // theres some odd things i was doing in orer to try to debug the program
+
 e
 
-// this should show that the song is still in the list
+// this should show that the song is still in the list but in g++ its not taking for some reason 
 
