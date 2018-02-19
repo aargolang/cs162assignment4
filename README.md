@@ -1,8 +1,6 @@
 # cs162assignment4
 
-I just remember being told that these are super duper important.
-
-anyways this is a doubly linked list assignment that is supposed to be a queue for a mock mp3 playr
+-- mp3 player simulator via a doubly linked list --
 
 when loading from a text file use "songs.txt" or "Text.txt". only the "songs" with the shorter file paths will be deleted properly. 
 
