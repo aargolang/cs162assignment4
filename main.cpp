@@ -94,15 +94,19 @@ void AddNewSong(LinkedList &list, char * filePath)
 }
 
 void DeleteSong(LinkedList &list) {
+	// deletes a song from the list by the filename
 	char songNM[256];
 	char songCMP[256];
 	bool deletedSong = false;
 	Node *current;
 	int i = 0;
 
+	// get user input
 	cout << "Please enter the song you wish to delete including file extension: ";
-	cin.ignore();
+	cin.ignore();		
 	cin.get(songNM, 256, '\n');
+	
+	// search list by the string: Song->data_->GetSongName
 	current = ((Node*)list.GetFirstNode());
 	while ((i < list.GetListLength()) && (deletedSong == false)) {
 		strcpy(songCMP, ((Song*)current->data_)->GetSongName());
@@ -119,6 +123,7 @@ void DeleteSong(LinkedList &list) {
 }
 
 void PlaySong(LinkedList &list) {
+	// this function disaplays the song name and deletes the song from the list
 	char songNM[256];
 	char songCMP[256];
 	bool playedSong = false;
